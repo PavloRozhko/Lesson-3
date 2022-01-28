@@ -1,0 +1,40 @@
+@import "null.css";
+
+#author {
+  color: coral;
+}
+p {
+  color: darkblue;
+}
+.title.header-title {
+  color: tomato;
+}
+.title {
+  color: gold;
+}
+.chapter-text span {
+  color: green;
+}
+h2.main-title {
+  color: crimson;
+}
+h3.title {
+  color: black;
+}
+.chapter-text {
+  color: orange;
+}
+.character-item > a {
+  color :black;
+}
+.mathematics > h2,
+.publications > h2{
+  color: darkgray;
+}
+[title="mathematics"]{
+  color: greenyellow;
+}
+
+.period ~ li {
+  color: gray;
+}
